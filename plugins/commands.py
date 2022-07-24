@@ -239,7 +239,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('JOIN', url='https://t.me/narthakicinemas')('Group', url='https://t.me/hd_moviesrequest') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('JOIN', url='https://t.me/narthakicinemas') ],[ InlineKeyboardButton('Group', url='https://t.me/hd_moviesrequest') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
