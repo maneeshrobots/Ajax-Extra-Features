@@ -240,7 +240,7 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('JOIN', url='https://t.me/narthakicinemas') ] ] ),
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('JOIN', url='https://t.me/narthakicinemas') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('Group', url='https://t.me/hd_moviesrequest') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
