@@ -41,14 +41,14 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/narthakicinemas'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/infonarthaki')
-            ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton(' 🔮 Group 🔮', url='https://t.me/hd_moviesrequest'), 
+            InlineKeyboardButton('💠 Updates 💠', url='https://t.me/infonarthaki')
+            ],[  
+            InlineKeyboardButton('🔍 Search 🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
-        ]]         
+            InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
+            InlineKeyboardButton('😊 About 😊', callback_data='about')
+            ]]  
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -84,14 +84,14 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/narthakicinemas'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/infonarthaki')
-            ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton(' 🔮 Group 🔮', url='https://t.me/hd_moviesrequest'), 
+            InlineKeyboardButton('💠 Updates 💠', url='https://t.me/infonarthaki')
+            ],[  
+            InlineKeyboardButton('🔍 Search 🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
-        ]]
+            InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
+            InlineKeyboardButton('😊 About 😊', callback_data='about')
+            ]]  
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
